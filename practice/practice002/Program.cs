@@ -10,8 +10,7 @@ Console.Write("Введите второе число: ");
 int b = Convert.ToInt32(Console.ReadLine());
 if (a>b)
 {
-    Console.Write("max = ");
-    Console.WriteLine(a);
+    Console.WriteLine("max = " + a);
 }
 else if (a == b)
 {
@@ -19,6 +18,5 @@ else if (a == b)
 }
 else
 {
-    Console.Write("max = ");
-    Console.WriteLine(b);
+    Console.WriteLine("max = " + b);
 }
