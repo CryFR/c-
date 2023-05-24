@@ -23,4 +23,4 @@ if (IsPalindrome(num))
 else
 {
     Console.WriteLine("Число не является палиндромом");
-}
+} 
