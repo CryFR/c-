@@ -78,7 +78,7 @@ double average = CalculateAverage(array);
 
 // Создаем массив для сохранения информации???
 object[] infoArray = new object[5];
-infoArray[0] = numbers;
+infoArray[0] = array;
 infoArray[1] = maxElement;
 infoArray[2] = maxIndex;
 infoArray[3] = minElement;
